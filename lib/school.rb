@@ -15,6 +15,7 @@ class School
     @hash[grade] = []
    
      @hash[grade] << stu_name
+     if @hash
     
   end 
   

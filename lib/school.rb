@@ -10,9 +10,9 @@ class School
     @hash = {}
   end 
   
-  def add_student(stu_name, "grade")
-    @hash["grade"] = []
-    @hash["grade"] << stu_name
+  def add_student(stu_name, grade)
+    @hash[grade] = []
+    @hash[grade] << stu_name
   end 
   
 end 

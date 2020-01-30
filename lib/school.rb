@@ -25,4 +25,13 @@ class School
     @hash[grade]
   end 
   
+  def sorted
+    @hash.each |key,value|
+      value.sort
+    end 
+  end 
+        
+        
+    
+  end
 end 

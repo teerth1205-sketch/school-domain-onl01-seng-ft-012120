@@ -12,7 +12,7 @@ class School
   end 
   
   def add_student(stu_name, grade)
-    @hash[grade] = []
+    HASH = @hash[grade] = []
     if @hash[grade] != nil
      @hash[grade] << stu_name
     else

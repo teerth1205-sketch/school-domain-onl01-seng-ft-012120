@@ -4,10 +4,11 @@ class School
   
   def initialize(name)
     @name = name
+    @hash = {}
   end
   
   def roster
-    @hash = {}
+    @hash 
   end 
   
   def add_student(grade, stu_name)

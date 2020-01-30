@@ -28,6 +28,7 @@ class School
     @hash.collect |key,value|
       key[value].sort
     end 
+    end 
   end 
         
         

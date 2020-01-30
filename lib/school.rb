@@ -19,8 +19,10 @@ class School
   else 
     @hash[grade] = [stu_name]
   end 
-
-    
+  end 
+  
+  def grade(grade)
+    @hash[grade]
   end 
   
 end 

@@ -15,7 +15,7 @@ class School
     @hash[grade] = []
     if @hash[grade] != nil
      @hash[grade] << stu_name
-    end 
+    else
     @hash[grade] = [stu_name]
     
   end 

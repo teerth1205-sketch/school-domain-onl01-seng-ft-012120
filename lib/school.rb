@@ -24,7 +24,7 @@ class School
     @hash[grade]
   end 
   
-  def sorted
+  def sort
     new_hash = {}
      @hash.each do |key, value|
        new_hash[key] = value.sort

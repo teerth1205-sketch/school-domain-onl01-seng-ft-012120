@@ -31,7 +31,7 @@ class School
     end 
     
     
-    
+    new_hash
       
      
  

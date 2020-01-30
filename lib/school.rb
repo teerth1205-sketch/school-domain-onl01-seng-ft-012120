@@ -16,7 +16,7 @@ class School
     if !(@hash.include?(grade))
      @hash[grade] << stu_name
    end 
-    @hash[grade] = stu_name
+    @hash[grade] = [stu_name]
     
   end 
   

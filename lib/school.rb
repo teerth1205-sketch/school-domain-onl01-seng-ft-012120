@@ -1,6 +1,5 @@
 # code here!
 class School
-  HASH ={}
   
   def initialize(name)
     @name = name
@@ -16,9 +15,9 @@ class School
    if @hash[grade] != nil
   
     @hash[grade] << stu_name
-  else 
+    else 
     @hash[grade] = [stu_name]
-  end 
+    end 
   end 
   
   def grade(grade)
@@ -33,5 +32,5 @@ class School
         
         
     
-
+end 
 end 

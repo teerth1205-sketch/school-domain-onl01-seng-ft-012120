@@ -25,10 +25,10 @@ class School
   end 
   
   def sorted
-    @hash.collect |key,value|
+    @hash.collect do  |key,value|
       key[value].sort
     end 
-    end 
+    
   end 
         
         

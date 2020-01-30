@@ -1,9 +1,14 @@
 # code here!
 class School
-  HASH = {}
+  
   
   def initialize(name)
-    @name = name 
+    @name = name
   end
+  
+  def roster
+    @hash = {}
+  end 
+  
   
 end 

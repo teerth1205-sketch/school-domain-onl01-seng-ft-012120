@@ -26,7 +26,8 @@ class School
   
   def sorted
     @hash.each do |key, value|
-    @hash[key].sort
+    @hash[key].sort do |a, b|
+      
     end 
     
   end 

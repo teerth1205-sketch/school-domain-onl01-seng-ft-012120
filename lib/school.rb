@@ -25,11 +25,11 @@ class School
   end 
   
   def sort
-    new = @hash.collect do |key, value|
+     @hash.collect do |key, value|
       value.sort
     end 
     
-    new 
+    
       
      
  
